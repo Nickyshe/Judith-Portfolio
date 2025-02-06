@@ -9,7 +9,7 @@ const ProfileShowcase = () => {
       platform: "Medium",
       username: "@judypearls200",
       link: "https://medium.com/@judypearls200",
-      description: "Web3 Technical Articles",
+      description: "Web3 Technical Content and General articles",
       color: "from-black to-gray-800",
       icon: "👨‍💻"
     },
@@ -26,7 +26,7 @@ const ProfileShowcase = () => {
       platform: "Hackernoon",
       username: "@judithetugbo",
       link: "https://hackernoon.com/u/judithetugbo",
-      description: "Technical articles, content and latest technology in Web3",
+      description: "Technical content and latest technology in AI and Web3",
       color: "from-green-500 to-emerald-700",
       icon: "🚀"
     },

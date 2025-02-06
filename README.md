@@ -1,6 +1,5 @@
 # Welcome to My Portfolio Project!
 
-![cover](./cover.png)
 
 Hello there! 👋
 

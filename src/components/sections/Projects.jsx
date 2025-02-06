@@ -86,7 +86,7 @@ const Projects = () => {
       projects: [
         {
           title: "Cybersecurity Risks of Cross-Chain Interoperability",
-          description: "An explanatory and informative content about the cybersecurity risk associated with cross-chain solutions.",
+          description: "An explanatory and informative article about the cybersecurity risks associated with cross-chain solutions.",
           tags: ["Cross-Chain", "Blockchain", "Web3"],
           links: { preview: "https://builtin.com/articles/cybersecurity-risks-cross-chain-interoperability" },
         },
@@ -140,13 +140,13 @@ const Projects = () => {
         },
         {
           title: "Pouchwize Documentation",
-          description: "User Documentation for DeFi P2P blockchain platform built on Starknet",
+          description: "User Documentation for P2P lending and borrowing built on Starknet Blockchain",
           tags: ["DeFi", "Web3"],
           links: { preview: "https://pouchwize.gitbook.io/pouchwize-docs" },
         },
         {
           title: "Android Glide Documentation",
-          description: "Developer documentation for efficient image loading library for Androi.",
+          description: "Developer documentation for efficient image loading library for Android.",
           tags: ["Android", "Library"],
           links: { preview: "https://nickyshe.github.io/Glide-V4/#/" },
         },
@@ -159,13 +159,13 @@ const Projects = () => {
       projects: [
         {
           title: "JSON SChema Documentation",
-          description: "Contributed to JSON Schema documentation ensuring the use of standardized pronouns, content clarity, and reorganized page for better understanding",
+          description: "Contributed to the JSON Schema documentation ensuring the use of standardized pronouns, content clarity, and reorganized page for better understanding.",
           tags: ["JSON", "JSON Schema"],
           links: { preview: "https://json-schema.org/overview/what-is-jsonschema" },
         },
         {
           title: "TWMP API Documentation Course",
-          description: "Created API Documentation course content, authored detailed articles and wrote two blog post in the documentation site ",
+          description: "Created API Documentation course content, authored detailed articles and wrote two blog post in the documentation site. ",
           tags: ["API Documentation", "OAS"],
           links: { preview: "https://technicalwritingmp.com/docs/api-docs-course/authors/" },
         }

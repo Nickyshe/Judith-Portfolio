@@ -5,7 +5,7 @@ export default function Services() {
   const services = [
     {
       title: "API Documentation",
-      description: "I create comprehensive API references and guides using industry-standard tools like OpenAPI, Swagger, and Postman.",
+      description: "I create comprehensive API references and guides using industry-standard tools like OpenAPI, and Postman.",
       icon: <Code className="w-8 h-8 mb-4 text-purple-400" />,
       stats: "2+ APIs documented"
     },
