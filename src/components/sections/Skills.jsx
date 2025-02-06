@@ -151,7 +151,7 @@ const SkillsMarquee = () => {
   ];
 
   return (
-    <div className="relative w-full overflow-hidden bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 py-16">
+    <div className="relative w-full overflow-hidden py-16">
       {/* Subtle grid pattern overlay */}
       <div className="absolute inset-0 opacity-10" 
         style={{
@@ -161,8 +161,8 @@ const SkillsMarquee = () => {
       />
       
       {/* Enhanced gradient overlays for smoother fade effect */}
-      <div className="absolute left-0 top-0 z-10 h-full w-32 bg-gradient-to-r from-gray-900 via-gray-900/90 to-transparent" />
-      <div className="absolute right-0 top-0 z-10 h-full w-32 bg-gradient-to-l from-gray-900 via-gray-900/90 to-transparent" />
+      <div className="absolute left-0 top-0 z-10 h-full w-32 bg-gradient-to-r from-[#172121] via-[#172121] to-transparent" />
+      <div className="absolute right-0 top-0 z-10 h-full w-32 bg-gradient-to-l from-[#172121] via-[#172121] to-transparent" />
       
       {/* Scrolling content with improved spacing and animation */}
       <div className="flex animate-[marquee_30s_linear_infinite] whitespace-nowrap">

@@ -36,7 +36,7 @@ const ProjectSection = ({ title, projects, isEven }) => {
           <Slider {...settings}>
             {projects.map((project, index) => (
               <div key={index} className="px-3">
-                <div className={`${isEven ? 'bg-[#151821]' : 'bg-[#3d2e0d6e]'} text-thistle p-8 rounded-lg shadow-xl h-full`}>
+                <div className={`${isEven ? 'bg-[#151821]' : 'bg-[#172121]'} text-thistle p-8 rounded-lg shadow-xl h-full`}>
                   <h3 className="text-2xl font-semibold mb-4">{project.title}</h3>
                   <p className="text-gray-300 mb-6 text-sm leading-relaxed">
                     {project.description}

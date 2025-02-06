@@ -6,14 +6,15 @@ export default function Hero() {
     <section className="py-20 px-6">
       <div className="max-w-6xl mx-auto flex flex-col-reverse items-center">
         {/* Left Content */}
-        <div className="font-mono md:w-2/3">
-          <TypeAnimation
+        <div className=" md:w-2/3">
+          {/*TODO: Change title */}
+          {/* <TypeAnimation
             sequence={[
-              'Technical Writer ✍🏾',
+              'Technical Writer',
               2000,
-              'Building Developer Experiences ✍🏾',
+              'Building Developer Experiences',
               2000,
-              'Creating API Documentation ✍🏾',
+              'Creating API Documentation',
               2000,
             ]}
             wrapper="h1"
@@ -21,19 +22,20 @@ export default function Hero() {
             className="text-5xl font-bold mb-6"
             repeat={Infinity}
             cursor={true}
-          />
-          <br />
+          /> */}
           <p className="text-2xl text-gray-200">
-            Hello, World! 👋 I'm  Judith⚡️
+          Hi, my name is
           </p>
+          <h1 className='text-5xl text-[#a1b49a] font-extrabold mb-4'>Judith Etugbo.</h1>
+          <h1 className='text-5xl text-[#a1b49a] font-extrabold capitalize opacity-[0.7]'>Technical Writer, Documentation and Web3 content creator </h1>
+          <br />
           <br />
           <p className="text-xl text-gray-300">
-          I am a Technical Writer with a strong interest in creating user-friendly technical documentation. <br /> <br />
-           My expertise lies in crafting 
-           user guides, technical blog posts, manuals, FAQs, and developer resources, including API references, and tutorials that empower users to utilize software products effectively.
+          I create user-friendly technical documentation. My expertise lies in crafting 
+           user guides/manuals, technical blog posts, FAQs, and developer resources, including API references, and tutorials that empower users to utilize software products effectively.
            <br />
            <br />
-            I am adept at collaborating with Subject Matter Experts (SMEs) to translate complex concepts into clear, concise, and engaging content.
+            I am skilled in collaborating with Subject Matter Experts (SMEs) to translate complex concepts into clear, concise, and engaging content.
            </p>
         </div>
         {/* Right Image */}

@@ -5,10 +5,19 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
-body {
-    font-family: 'JetBrains Mono', monospace;
-}
+@font-face {
+    font-family: myFirstFont;
+    src: url(../public/calibre-font-family-1738833292-0/TestCalibre-Regular-BF661746edbee52.otf);
+  } 
 
+body {
+    font-family: 'myFirstFont', monospace;
+}
+ 
 .red {
     border: 1px red solid;
+  }
+
+  p {
+    font-size: 20px !important;
   }

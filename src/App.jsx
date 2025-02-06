@@ -9,7 +9,7 @@ import SkillsMarquee from './components/sections/Skills'
 
 function App() {
   return (
-    <div className="min-h-screen bg-eerieBlack text-paleDogwood">
+    <div className="min-h-screen bg-[#172121] text-paleDogwood">
       <Navbar />
       <Hero />
       <Services />

@@ -3,7 +3,7 @@ import { Twitter, Github, Linkedin, Mail } from 'lucide-react';
 export default function Contact() {
   return (
     <>
-      <section className="py-20 px-6 bg-[#3d2e0d6e]">
+      <section className="py-20 px-6 bg-[#172121]">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">Get in touch 🚀</h2>
           <p className="text-xl text-gray-300 mb-8">
@@ -18,7 +18,7 @@ export default function Contact() {
         </div>
       </section>
 
-      <footer className="py-6 px-6 bg-[#3d2e0d6e]">
+      <footer className="py-6 px-6 bg-[#172121]">
         <div className="max-w-6xl mx-auto text-center text-gray-400">
           <p>© 2025 Judith Etugbo. All rights reserved.</p>
         </div>

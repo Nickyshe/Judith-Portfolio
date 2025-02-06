@@ -25,10 +25,10 @@ export default function Services() {
   ];
 
   return (
-    <section className="py-20 px-6 bg-[#3d2e0d6e]">
+    <section className="py-20 px-6 bg-[#172121]">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold mb-4">My Expertise 🎯</h2>
+          <h2 className="text-3xl font-bold mb-4">My Expertise 💼</h2>
           <p className="text-gray-400 text-lg">A summary of my documentation and technical writing expertise</p>
         </div>
 
