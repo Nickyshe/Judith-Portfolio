@@ -6,41 +6,34 @@ const ProfileShowcase = () => {
 
   const profiles = [
     {
-      platform: "Substack",
-      username: "@wisdomnwokocha",
-      link: "https://substack.com/@wisdomnwokocha",
-      description: "Join and be part of my journey of life through my newsletter!",
-      color: "from-purple-500 to-blue-500",
-      icon: "🗞️"
-    },
-    {
-      platform: "Hashnode",
-      username: "@wise4rmgod",
-      link: "https://wise4rmgod.hashnode.dev/",
-      description: "Cloud & DevOps tutorials, best practices, and insights",
-      color: "from-purple-500 to-blue-500",
-      icon: "🌐"
-    },
-    {
-      platform: "Dev.to",
-      username: "@wise4rmgod",
-      link: "https://dev.to/wise4rmgod",
-      description: "Web development articles and coding tutorials",
+      platform: "Medium",
+      username: "@judypearls200",
+      link: "https://medium.com/@judypearls200",
+      description: "Web3 Technical Articles",
       color: "from-black to-gray-800",
       icon: "👨‍💻"
     },
     {
+      platform: "Hashnode",
+      username: "@Judy",
+      link: "https://judy.hashnode.dev/",
+      description: "Technical Content, Tutorials and General Articles",
+      color: "from-purple-500 to-blue-500",
+      icon: "🌐"
+    },
+   
+    {
       platform: "Hackernoon",
-      username: "@wise4rmgod",
-      link: "https://hackernoon.com/u/wise4rmgod",
-      description: "Deep tutorials on tech trends and programming",
+      username: "@judithetugbo",
+      link: "https://hackernoon.com/u/judithetugbo",
+      description: "Technical articles, content and latest technology in Web3",
       color: "from-green-500 to-emerald-700",
       icon: "🚀"
     },
     {
       platform: "Resume",
       username: "Download PDF",
-      link: "/resume.pdf",
+      link: "/Judith Etugbo Technical Writing Resume.pdf",
       description: "View my full professional experience and skills",
       color: "from-red-500 to-orange-500",
       icon: "📄"
@@ -48,7 +41,7 @@ const ProfileShowcase = () => {
   ];
 
   return (
-    <section className="py-20 px-6 bg-[#1a1f2e] overflow-hidden relative">
+    <section className="py-20 px-6 bg-[#3d2e0d6e] overflow-hidden relative">
       {/* Animated background particles */}
       <div className="absolute inset-0 opacity-20">
         {[...Array(20)].map((_, i) => (

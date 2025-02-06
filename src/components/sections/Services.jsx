@@ -7,37 +7,32 @@ export default function Services() {
       title: "API Documentation",
       description: "I create comprehensive API references and guides using industry-standard tools like OpenAPI, Swagger, and Postman.",
       icon: <Code className="w-8 h-8 mb-4 text-purple-400" />,
-      stats: "5+ APIs documented"
+      stats: "2+ APIs documented"
     },
     {
       title: "Technical Content",
-      description: "I author detailed technical guides, tutorials, and articles focused on developer tools and cloud technologies.",
+      description: "I author detailed technical guides, tutorials, and articles focused on developers and end users.",
       icon: <Files className="w-8 h-8 mb-4 text-blue-400" />,
-      stats: "70+ articles published"
+      stats: "20+ articles published"
     },
     {
       title: "Documentation Strategy",
       description: "I lead documentation initiatives, including content organization, style guides, and documentation workflows.",
       icon: <BookOpen className="w-8 h-8 mb-4 text-green-400" />,
-      stats: "5+ documentation portals"
+      stats: "2+ documentation portals"
     },
-    {
-      title: "Technical Mentoring",
-      description: "I conduct recorded technical classes on YouTube, helping developers master documentation and technical writing.",
-      icon: <Users className="w-8 h-8 mb-4 text-yellow-400" />,
-      stats: "100+ students mentored"
-    }
+  
   ];
 
   return (
-    <section className="py-20 px-6 bg-[#1a1f2e]">
+    <section className="py-20 px-6 bg-[#3d2e0d6e]">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold mb-4">My Expertise 🎯</h2>
           <p className="text-gray-400 text-lg">A summary of my documentation and technical writing expertise</p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
           {services.map((service, index) => (
             <div 
               key={index} 

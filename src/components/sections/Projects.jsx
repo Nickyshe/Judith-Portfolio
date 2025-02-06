@@ -36,7 +36,7 @@ const ProjectSection = ({ title, projects, isEven }) => {
           <Slider {...settings}>
             {projects.map((project, index) => (
               <div key={index} className="px-3">
-                <div className={`${isEven ? 'bg-[#151821]' : 'bg-[#1a1f2e]'} text-thistle p-8 rounded-lg shadow-xl h-full`}>
+                <div className={`${isEven ? 'bg-[#151821]' : 'bg-[#3d2e0d6e]'} text-thistle p-8 rounded-lg shadow-xl h-full`}>
                   <h3 className="text-2xl font-semibold mb-4">{project.title}</h3>
                   <p className="text-gray-300 mb-6 text-sm leading-relaxed">
                     {project.description}
@@ -85,191 +85,89 @@ const Projects = () => {
       title: "Technical Articles",
       projects: [
         {
-          title: "Building an Image Generator with React and OpenAI",
-          description: "A comprehensive guide on integrating OpenAI's image generation capabilities with React applications.",
-          tags: ["React", "OpenAI", "Technical Writing"],
-          links: { preview: "https://hackernoon.com/a-guide-to-building-an-image-generator-with-react-and-openai" },
+          title: "Cybersecurity Risks of Cross-Chain Interoperability",
+          description: "An explanatory and informative content about the cybersecurity risk associated with cross-chain solutions.",
+          tags: ["Cross-Chain", "Blockchain", "Web3"],
+          links: { preview: "https://builtin.com/articles/cybersecurity-risks-cross-chain-interoperability" },
         },
         {
-          title: "PaLM API Guide for LLMs",
-          description: "A beginner's guide to working with Large Language Models using the PaLM API.",
-          tags: ["LLM", "PaLM API", "AI"],
-          links: { preview: "https://hackernoon.com/a-beginners-guide-to-using-large-language-models-llms-with-the-palm-api" },
+          title: "Exploring Bitcoin Sidechains and Their Usecases",
+          description: "A conceptual article about Bitcoin sidechains and their usecases",
+          tags: ["Bitcoin", "Sidechains", "Web3"],
+          links: { preview: "https://hackernoon.com/exploring-bitcoin-sidechains-and-their-use-cases" },
         },
         {
-          title: "Deploy React App to Kubernetes",
-          description: "A step-by-step guide on deploying React applications to Kubernetes using Docker and Minikube.",
-          tags: ["React", "Kubernetes", "Docker"],
-          links: { preview: "https://wise4rmgod.hashnode.dev/deploy-react-app-to-kubernetes-with-docker-and-minikube" },
+          title: "Master the Basics of SEO for Beginners using Semrush",
+          description: "A conceptual guide that explains SEO for beginners and how to use Semrush for keyword research.",
+          tags: ["SEO", "Semrush", "Keyword Research"],
+          links: { preview: "https://technicalwritingmp.com/blog/master-the-basics-of-seo-using-semrush/" },
         },
         {
-          title: "Scalable Node.js REST API Deployment",
-          description: "Tutorial on deploying a secure and scalable Node.js REST API with MongoDB on Aptible platform.",
-          tags: ["Node.js", "MongoDB", "DevOps"],
-          links: { preview: "https://hackernoon.com/deploying-a-scalable-and-secure-nodejs-rest-api-with-mongodb-on-aptible" },
+          title: "How to Host a Static Website using AWS EC2 and Nginx",
+          description: "A step by step guide on how to host a static website using AWS and Nginx.",
+          tags: ["AWS", "EC2", "Hosting"],
+          links: { preview: "https://judy.hashnode.dev/how-to-host-a-static-website-with-aws-ec2-using-nginx" },
         },
-        {
-          title: "Postman Guide for Beginners",
-          description: "Comprehensive introduction to API testing and collaboration using Postman, perfect for beginners.",
-          tags: ["Postman", "API Testing", "Technical Writing"],
-          links: { preview: "https://wise4rmgod.hashnode.dev/postman-guide-for-beginners-a-comprehensive-introduction-to-api-testing-and-collaboration" },
-        },
-        {
-          title: "Technical Writing: Key to Product Success",
-          description: "An in-depth exploration of how technical writing contributes to product success and user adoption.",
-          tags: ["Technical Writing", "Product Development", "Documentation"],
-          links: { preview: "https://builtin.com/articles/technical-writing-key-product-success" },
-        }
+        
       ],
-    },
-    userGuides: {
-      title: "User Guides",
-      projects: [
-        {
-          title: "Postman Guide for Beginners",
-          description: "Comprehensive guide to getting started with Postman for API testing and collaboration.",
-          tags: ["Postman", "API Testing", "Tutorial"],
-          links: { preview: "https://wise4rmgod.hashnode.dev/postman-guide-for-beginners-a-comprehensive-introduction-to-api-testing-and-collaboration" },
-        },
-        {
-          title: "Nylas Integration Guide",
-          description: "Step-by-step guide for setting up and integrating Nylas API into applications.",
-          tags: ["Nylas", "Integration", "Setup"],
-          links: { preview: "https://developer.nylas.com/docs/v3/getting-started/set-up/#before-you-begin" },
-        },
-        {
-          title: "Half-Dome Labs Guide",
-          description: "Comprehensive user guide for Half-Dome Labs platform and tools.",
-          tags: ["User Guide", "Documentation", "Tools"],
-          links: { preview: "https://www.dropbox.com/scl/fi/i7cu46t2uawta12agpqpt/Half-Dome-Labs-User-guide.paper?rlkey=l5u4pkip5m4qsoa5z9yfzr0nj&dl=0" },
-        }
-      ],
-    },
+    }, 
     apiDocumentation: {
       title: "API Documentation",
       projects: [
         {
-          title: "C-One API Reference",
-          description: "Comprehensive API documentation for C-One platform, including authentication and endpoint details.",
-          tags: ["API", "Technical Writing", "ReadMe"],
-          links: { preview: "https://c-one.readme.io/reference/getting-started-with-your-api" },
+          title: "The Movie Database API Reference",
+          description: "Comprehensive API documentation for The Movie Database API, including authentication and endpoint details.",
+          tags: ["API", "Postman"],
+          links: { preview: "https://documenter.getpostman.com/view/30107197/2s9YsRcpH2#32c6cbd2-c3e7-46f3-a4ef-e45a04c55dfa" },
         },
         {
-          title: "Nylas API Reference",
-          description: "Comprehensive API documentation for Nylas platform, including authentication, endpoints, and integration guides.",
-          tags: ["API", "SDK", "Email"],
-          links: { preview: "https://developer.nylas.com/docs/api/" },
+          title: "Radeur API Reference",
+          description: "Comprehensive API documentation for Radeur, including authentication, and endpoints details",
+          tags: ["API", "Postman"],
+          links: { preview: "https://documenter.getpostman.com/view/30107197/2sA2r9WPD2" },
         },
-        {
-          title: "Custom API Documentation",
-          description: "Detailed Postman collection documentation for custom API endpoints and integration scenarios.",
-          tags: ["API", "Postman", "Integration"],
-          links: { preview: "https://documenter.getpostman.com/view/1835497/UzBnrSFB#intro" },
-        },
-        {
-          title: "Orchestro AI API",
-          description: "Developer documentation for Orchestro AI platform APIs and integration patterns.",
-          tags: ["AI", "API", "ML"],
-          links: { preview: "https://developer.orchestro.ai/introduction" },
-        },
-        {
-          title: "DummyAPI Documentation",
-          description: "Swagger documentation for DummyAPI showcasing RESTful endpoints and usage examples.",
-          tags: ["API", "Swagger", "OpenAPI"],
-          links: { preview: "https://app.swaggerhub.com/apis-docs/wise4rmgod/DummyAPI/0.1" },
-        }
+      
       ],
     },
     documentationSites: {
       title: "Developer Documentation",
       projects: [
         {
-          title: "NeuBird AI API Guide",
-          description: "Quick start guide and API documentation for NeuBird AI platform integration.",
-          tags: ["AI", "API", "Documentation"],
-          links: { preview: "https://help.neubird.ai/introduction/quick_start/" },
+          title: "Retrofit Documentation",
+          description: "A Type-safe HTTP client for Android and Java applications that simplifies communication with web APIs .",
+          tags: ["Android Library", "Mkdocs"],
+          links: { preview: "https://021cbc9e.retrofit-docs.pages.dev/" },
         },
         {
-          title: "Technical Writing Masterclass",
-          description: "Educational platform for technical writing best practices and guidelines.",
-          tags: ["Technical Writing", "Education"],
-          links: { preview: "https://technicalwritingmp.com/" },
+          title: "Pouchwize Documentation",
+          description: "User Documentation for DeFi P2P blockchain platform built on Starknet",
+          tags: ["DeFi", "Web3"],
+          links: { preview: "https://pouchwize.gitbook.io/pouchwize-docs" },
         },
         {
-          title: "Interswitch Developer Docs",
-          description: "Developer documentation for Interswitch payment integration and services.",
-          tags: ["Payments", "Integration", "API"],
-          links: { preview: "https://docs.interswitchgroup.com/v1.1/docs/home" },
+          title: "Android Glide Documentation",
+          description: "Developer documentation for efficient image loading library for Androi.",
+          tags: ["Android", "Library"],
+          links: { preview: "https://nickyshe.github.io/Glide-V4/#/" },
         },
-        {
-          title: "Accumulate Network Docs",
-          description: "Technical documentation for the Accumulate blockchain network protocols and APIs.",
-          tags: ["Blockchain", "Documentation"],
-          links: { preview: "https://docs.accumulatenetwork.io" },
-        },
-        {
-          title: "Nylas Developer Portal",
-          description: "Complete developer documentation for Nylas email, calendar, and contacts APIs.",
-          tags: ["API", "Integration", "Email"],
-          links: { preview: "https://developer.nylas.com" },
-        },
-        {
-          title: "Jetpack Compose Tutorial",
-          description: "Comprehensive tutorial for Android development with Jetpack Compose.",
-          tags: ["Android", "Kotlin", "Mobile"],
-          links: { preview: "https://wise4rmgod.github.io/Jetpack-Compose-Tutorial/" },
-        },
-        {
-          title: "AI Assessment Tool",
-          description: "Documentation portal for AI assessment reporting tool with comprehensive guides and examples.",
-          tags: ["AI", "Documentation", "Assessment"],
-          links: { preview: "https://www.aiat.report/report/about" },
-        },
-        {
-          title: "Blockchain Beginner Guide",
-          description: "Educational resource for blockchain development fundamentals.",
-          tags: ["Blockchain", "Tutorial", "Web3"],
-          links: { preview: "https://beginnerblockchain.netlify.app" },
-        },
-        {
-          title: "Rootstock Developer Portal",
-          description: "Developer documentation for building on the Rootstock blockchain platform.",
-          tags: ["Blockchain", "Smart Contracts", "Web3"],
-          links: { preview: "https://dev.rootstock.io" },
-        }
+       
       ],
     },
-    blockchainArticles: {
-      title: "Blockchain Office Hours",
-      projects: [
-        {
-          title: "The Graph Indexer Office Hours #160",
-          description: "Summary and insights from The Graph's indexer office hours session, covering recent updates and community discussions.",
-          tags: ["Blockchain", "The Graph", "Web3"],
-          links: { preview: "https://blog.pinax.network/events/the-graph-indexer-office-hours-160/" },
-        },
-        {
-          title: "The Graph Indexer Office Hours #159",
-          description: "Detailed coverage of The Graph's indexer office hours, including technical discussions and network updates.",
-          tags: ["Blockchain", "The Graph", "Web3"],
-          links: { preview: "https://blog.pinax.network/events/the-graph-indexer-office-hours-159/" },
-        }
-      ],
-    },
+  
     openSourceContributions: {
       title: "Open Source Contributions",
       projects: [
         {
-          title: "Go Ethereum (Geth) Documentation",
-          description: "Contributed to the official documentation for Go Ethereum (Geth), the most popular Ethereum implementation.",
-          tags: ["Ethereum", "Blockchain", "Go"],
-          links: { preview: "https://geth.ethereum.org/docs/getting-started" },
+          title: "JSON SChema Documentation",
+          description: "Contributed to JSON Schema documentation ensuring the use of standardized pronouns, content clarity, and reorganized page for better understanding",
+          tags: ["JSON", "JSON Schema"],
+          links: { preview: "https://json-schema.org/overview/what-is-jsonschema" },
         },
         {
-          title: "Flow Blockchain Documentation",
-          description: "Documentation contributions for Flow blockchain platform, covering developer guides and protocol specifications.",
-          tags: ["Flow", "Blockchain", "Web3"],
-          links: { preview: "https://developers.flow.com/" },
+          title: "TWMP API Documentation Course",
+          description: "Created API Documentation course content, authored detailed articles and wrote two blog post in the documentation site ",
+          tags: ["API Documentation", "OAS"],
+          links: { preview: "https://technicalwritingmp.com/docs/api-docs-course/authors/" },
         }
       ],
     },

@@ -3,23 +3,15 @@ import React from 'react';
 export default function Companies() {
   const companies = [
     {
-      name: "Nylas",
-      link: "https://developer.nylas.com/",
-      image: "/new_nylas_logo_blue.png"
+      name: "TWMP",
+      link: "https://technicalwritingmp.com/docs/api-docs-course/authors/",
+      image: "/assets/twmp.jpeg"
     },
-    {
-      name: "Rootstock",
-      link: "https://dev.rootstock.io/",
-      image: "/rootstock.png"
-    },
-    {
-      name: "Accumulate",
-      link: "https://docs.accumulatenetwork.io/accumulate",
-      image: "/accumulate-logo.png"
-    },
+
+  
     {
       name: "Builtin",
-      link: "https://builtin.com/articles/technical-writing-key-product-success",
+      link: "https://builtin.com/authors/judith-etugbo",
       image: "/built-in-1.jpg"
     },
   ];
