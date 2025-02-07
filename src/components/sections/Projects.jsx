@@ -109,6 +109,13 @@ const Projects = () => {
           links: { preview: "https://judy.hashnode.dev/how-to-host-a-static-website-with-aws-ec2-using-nginx" },
         },
         
+        {
+          title: "Why Multi-Signature Wallets are crucial for Blockchain Security",
+          description: "This article explains what Multi-Signature wallets are and highlights their importance in blockchain security",
+          tags: ["Crypto Wallets", "Web3", "Multi-sig"],
+          links: { preview: "https://builtin.com/articles/multi-signature-crypto-wallets" },
+        },
+        
       ],
     }, 
     apiDocumentation: {
