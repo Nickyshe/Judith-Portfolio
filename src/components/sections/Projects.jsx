@@ -90,6 +90,13 @@ const Projects = () => {
           tags: ["Cross-Chain", "Blockchain", "Web3"],
           links: { preview: "https://builtin.com/articles/cybersecurity-risks-cross-chain-interoperability" },
         },
+
+        {
+          title: "What is Developer Documentation for Technical Writers",
+          description: "An explanatory and informative article that explains what developer documentation is and its importance for technical writers.",
+          tags: ["Documentation", "Technical Writers", "Developer Docs"],
+          links: { preview: "https://judy.hashnode.dev/what-is-developer-documentation-for-technical-writers" },
+        },
         {
           title: "Exploring Bitcoin Sidechains and Their Usecases",
           description: "A conceptual article about Bitcoin sidechains and their usecases",
