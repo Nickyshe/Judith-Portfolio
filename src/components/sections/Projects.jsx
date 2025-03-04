@@ -92,6 +92,20 @@ const Projects = () => {
         },
 
         {
+          title: "Why Multi-Signature Wallets are crucial for Blockchain Security",
+          description: "This article explains what Multi-Signature wallets are and highlights their importance in blockchain security",
+          tags: ["Crypto Wallets", "Web3", "Multi-sig"],
+          links: { preview: "https://builtin.com/articles/multi-signature-crypto-wallets" },
+        },
+
+        {
+          title: "Zora & Base Integration Promoting Inclusivity by Bringing Creators Onchain",
+          description: " This article explores how Zora and Base integration promotes inclusivity by bringing creators onchain.",
+          tags: ["Zora", "Base", "Onchain"],
+          links: { preview: "https://medium.com/@judypearls200/zora-base-integration-promoting-inclusivity-by-bringing-creators-on-chain-19bf8d236904" },
+        },
+
+        {
           title: "What is Developer Documentation for Technical Writers",
           description: "An explanatory and informative article that explains what developer documentation is and its importance for technical writers.",
           tags: ["Documentation", "Technical Writers", "Developer Docs"],
@@ -116,12 +130,7 @@ const Projects = () => {
           links: { preview: "https://judy.hashnode.dev/how-to-host-a-static-website-with-aws-ec2-using-nginx" },
         },
         
-        {
-          title: "Why Multi-Signature Wallets are crucial for Blockchain Security",
-          description: "This article explains what Multi-Signature wallets are and highlights their importance in blockchain security",
-          tags: ["Crypto Wallets", "Web3", "Multi-sig"],
-          links: { preview: "https://builtin.com/articles/multi-signature-crypto-wallets" },
-        },
+       
         
       ],
     }, 
