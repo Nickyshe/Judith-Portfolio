@@ -27,15 +27,15 @@ export default function Hero() {
           Hi, my name is
           </p>
           <h1 className='text-5xl text-[#a1b49a] font-extrabold mb-4'>Judith Etugbo.</h1>
-          <h1 className='text-5xl text-[#a1b49a] font-extrabold capitalize opacity-[0.7]'>Technical Writer, Documentation and Web3 content creator </h1>
+          <h1 className='text-5xl text-[#a1b49a] font-extrabold capitalize opacity-[0.7]'>Technical Writer, Building Developer Experiences</h1>
           <br />
           <br />
           <p className="text-xl text-gray-300">
           I create user-friendly technical documentation. My expertise lies in crafting 
-           user guides/manuals, technical blog posts, FAQs, and developer resources, including API references, and tutorials that empower users to utilize software products effectively.
+           user guides/manuals, technical blog posts, FAQs, and developer resources, including API references, and tutorials that empower users to use software products effectively.
            <br />
            <br />
-            I am skilled in collaborating with Subject Matter Experts (SMEs) to translate complex concepts into clear, concise, and engaging content.
+          
            </p>
         </div>
         {/* Right Image */}
