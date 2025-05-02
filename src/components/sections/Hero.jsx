@@ -31,8 +31,8 @@ export default function Hero() {
           <br />
           <br />
           <p className="text-xl text-gray-300">
-          I create user-friendly technical documentation. My expertise lies in crafting 
-           user guides/manuals, technical blog posts, FAQs, and developer resources, including API references, and tutorials that empower users to use software products effectively.
+          I create user-friendly technical documentation. These include writing  
+           user guides/manuals, technical blog posts, FAQs, and developer resources, such as API references, and tutorials that empower users to use software products effectively.
            <br />
            <br />
           

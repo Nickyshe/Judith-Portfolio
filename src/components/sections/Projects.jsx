@@ -99,6 +99,14 @@ const Projects = () => {
         },
 
         {
+          title: "A guide to organizing Fedora Events",
+          description: "This article provides a comprehensive guide on how to organize Fedora events, including planning, execution, and post-event activities.",
+          tags: ["Fedora ", "Events", "Open Source"],
+          links: { preview: "https://judy.hashnode.dev/a-guide-to-organizing-fedora-events" },
+        },
+
+
+        {
           title: "Zora & Base Integration Promoting Inclusivity by Bringing Creators Onchain",
           description: " This article explores how Zora and Base integration promotes inclusivity by bringing creators onchain.",
           tags: ["Zora", "Base", "Onchain"],
@@ -170,7 +178,7 @@ const Projects = () => {
         {
           title: "Android Glide Documentation",
           description: "Developer documentation for efficient image loading library for Android.",
-          tags: ["Android", "Library"],
+          tags: ["Android", "Library", "Docsify"],
           links: { preview: "https://nickyshe.github.io/Glide-V4/#/" },
         },
        
@@ -181,10 +189,28 @@ const Projects = () => {
       title: "Open Source Contributions",
       projects: [
         {
+          title: "Fedora DEI Documentation Audit",
+          description: "This is a documentation audit for the Fedora DEI team, ensuring that the documentation is inclusive and accessible.",
+          tags: ["Fedora", "Open Source", "Documentation"],
+          links: { preview: "https://docs.google.com/document/d/1RGrzi8-TmBnPFyJwwOeHTuZyotD879vRjhUGPIjhM_c/edit?usp=sharing" },
+        },
+        {
+          title: "Fedora Gaming SIG Documentation Audit",
+          description: "I audited the Fedora Gaming SIG documentation and priotized the sections that need improvement.",
+          tags: ["Audit", "Fedora", "Open Source"],
+          links: { preview: "https://docs.google.com/document/d/1UX0jdUz9H49i2Zn7YMLCGI_Q3JT32mJ83xWhgB-xgZM/edit?usp=sharing" },
+        },
+        {
           title: "JSON SChema Documentation",
           description: "Contributed to the JSON Schema documentation ensuring the use of standardized pronouns, content clarity, and reorganized page for better understanding.",
           tags: ["JSON", "JSON Schema"],
           links: { preview: "https://json-schema.org/overview/what-is-jsonschema" },
+        },
+        {
+          title: "JetPath",
+          description: "Created a contributing guide and code of conduct for Jetpath project, a Javascript framework. I am actively working on the documentation.",
+          tags: ["Jetpath", "Open Source"],
+          links: { preview: "https://github.com/Nickyshe/JetPath/blob/main/contributing.md" },
         },
         {
           title: "TWMP API Documentation Course",
