@@ -31,8 +31,9 @@ export default function Hero() {
           <br />
           <br />
           <p className="text-xl text-gray-300">
-          I create user-friendly technical documentation. These include writing  
-           user guides/manuals, technical blog posts, FAQs, and developer resources, such as API references, and tutorials that empower users to use software products effectively.
+          I create user-friendly documentation, including user guides, technical blogs, 
+          FAQs, developer resources, API references, and tutorials. I possess strong communication skills and collaborate effectively with Subject Matter Experts (SMEs) to translate complex information into concise and engaging content..
+
            <br />
            <br />
           
