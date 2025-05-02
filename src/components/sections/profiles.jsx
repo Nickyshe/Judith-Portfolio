@@ -32,7 +32,7 @@ const ProfileShowcase = () => {
     },
     {
       platform: "Resume",
-      username: "View Resume",
+      username: "My Resume",
       link: "https://docs.google.com/document/d/1-v94NCVwvvtNvUMODqOWSIcdajR5fVlTXEqghMkWJCE/edit?usp=sharing",
       description: "View my full professional experience and skills",
       color: "from-red-500 to-orange-500",
