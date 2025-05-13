@@ -196,7 +196,7 @@ const Projects = () => {
         },
         {
           title: "Fedora Gaming SIG Documentation Audit",
-          description: "I audited the Fedora Gaming SIG documentation and priotized the sections that need improvement.",
+          description: "I audited the Fedora Gaming SIG documentation and priortized the sections that need improvement.",
           tags: ["Audit", "Fedora", "Open Source"],
           links: { preview: "https://docs.google.com/document/d/1UX0jdUz9H49i2Zn7YMLCGI_Q3JT32mJ83xWhgB-xgZM/edit?usp=sharing" },
         },
